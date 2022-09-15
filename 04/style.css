@@ -1,0 +1,21 @@
+#container{
+    position: relative;
+    align-items: center;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    border-radius: 50%;
+    animation: move 4s ease-in-out;
+    animation-delay: 1000ms;
+    }
+
+
+    @keyframes move{
+        0%{ 
+        transform:translateX(0px)
+    }
+        100%{
+        transform: translateX(400px)
+        }
+}

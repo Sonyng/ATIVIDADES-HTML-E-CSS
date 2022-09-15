@@ -1,0 +1,24 @@
+.circulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: aquamarine;
+    animation: move 5s linear 4;
+}
+
+
+@keyframes move {
+    100%,0%{
+        left: 50%;
+    }
+    25%{
+        left: 4%;
+    }
+    50%{
+        left: 96%;
+    }
+}

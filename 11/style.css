@@ -1,0 +1,36 @@
+*{
+    margin: 0% auto;
+    padding: 0% ;
+    box-sizing: border-box;
+}
+  
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+div.container {
+    position: relative;
+    display: flex;
+    animation: pulsar 4s linear infinite;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+@keyframes pulsar {
+    100%,0%{
+width: 200px;
+height: 200px;
+    }
+    50%{
+        width: 400px;
+        height: 400px;
+        transform: rotate(360deg);
+    }
+}
+
+
